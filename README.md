@@ -33,31 +33,6 @@ Tecnologias
 - DataStore Preferences
 - Gradle com Kotlin DSL
 
-Estrutura do projeto
-
-opendex/
-├── .github/
-│   └── workflows/
-│       └── build-apk.yml
-├── app/
-│   ├── src/main/
-│   │   ├── java/com/opendex/desktop/
-│   │   │   ├── MainActivity.kt
-│   │   │   ├── model/
-│   │   │   ├── data/
-│   │   │   └── ui/
-│   │   │       └── theme/
-│   │   ├── res/
-│   │   └── AndroidManifest.xml
-│   ├── build.gradle.kts
-│   └── proguard-rules.pro
-├── gradle/
-│   └── libs.versions.toml
-├── build.gradle.kts
-├── settings.gradle.kts
-├── gradle.properties
-└── README.md
-
 Como funciona
 
 A aplicação utiliza uma Activity principal para hospedar a interface desktop. Os componentes de interface são desenvolvidos com Jetpack Compose, enquanto classes separadas consultam os aplicativos instalados, o estado do sistema, as preferências e as capacidades de exibição do dispositivo.
